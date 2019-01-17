@@ -1,0 +1,141 @@
+body {
+    margin: 50px 100px;
+}
+
+/* CARDS */
+table.cards {
+    background-color: transparent;
+    padding: 10px 10px 10px 10px;
+}
+
+.cards tbody img {
+    height: 100px;
+}
+
+.cards td {
+    text-transform: capitalize !important;
+}
+
+.cards tbody tr {
+    float: left;
+    margin: 10px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    margin-right: 10px !important;
+}
+
+.cards tbody td {
+    display: block;
+    overflow: hidden;
+    text-align: left;
+}
+
+.table {
+    background-color: #fff;
+}
+
+.table tbody label {
+    margin-right: 5px;
+    width: 100px;
+}
+
+.table .glyphicon {
+    font-size: 20px;
+}
+
+.cards .glyphicon {
+    font-size: 75px;
+}
+
+.cards tbody label {
+    display: inline;
+    position: relative;
+    font-size: 85%;
+    font-weight: normal;
+    top: -5px;
+    left: -3px;
+    float: left;
+    color: #808080;
+}
+[data-toggle="popover"] {
+    cursor: pointer
+}
+
+
+abbr[title] {
+    border-bottom: none !important;
+    text-decoration: none !important;
+}
+
+.table th, .table td {
+    padding: 10px 20px 5px 10px;
+    border-top: 0px;
+}
+
+.cards tbody button {
+    float: right;
+}
+
+/* ICONS */
+i {
+    line-height: inherit;
+    vertical-align: middle;
+}
+
+i.left {
+    float: left;
+    margin-right: 15px;
+}
+
+i.right {
+    float: right;
+    margin-left: 15px;
+}
+
+i.tiny {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+i.small {
+    font-size: 2rem;
+}
+
+i.medium {
+    font-size: 4rem;
+}
+
+i.large {
+    font-size: 6rem;
+}
+
+.cards tbody tr {
+    width: 350px;
+    height: 245px;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    background-color: #FCCA3A;
+    border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
+}
+
+.cards tbody tr:before {
+    content: '';
+    width: 50%;
+    height: 30px;
+    border-radius: 0 30px 0 0;
+    background-color: #FB9F23;
+    position: absolute;
+    top: -30px;
+    left: 0px;
+}
+
+.cards tbody tr.selected {
+    background-color: #03A9F4;
+    color: #FFF;
+}
+
+.cards tbody tr.selected:before {
+    background-color: #2196F3;
+}
